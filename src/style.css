@@ -14,16 +14,16 @@ html, body{
 
 :root{
   --white: white;
-  --init-color-background: #020024;
+  --init-color-background: #0e103d;
 
   --first-section-color-background: #0b1c3f;
-  --first-section-color: #1ab2ae;
+  --first-section-color: #5c80bc;
 
   --second-section-color-background: #0b1c3f;
-  --second-section-color: #b34cd7;
+  --second-section-color: #884da7;
 
   --third-section-color-background: #0b1c3f;
-  --third-section-color: #a8bfa3;
+  --third-section-color: #136f63;
 }
 
 a {
@@ -31,9 +31,14 @@ a {
   text-decoration: none;
 }
 
-.linkedIn{
-  font-size: 20px;
+.link-project{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: -25px;
 }
+
+
 
 /********** Experience  **********/
 .experience{
@@ -57,7 +62,7 @@ a {
 .preloader{
   background-color: var(--init-color-background);
   width: 100%;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   opacity: 1;
   z-index: 99999999999999999;
@@ -114,7 +119,7 @@ a {
 .page{
     z-index: 99999;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
 }
 

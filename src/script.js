@@ -38,7 +38,7 @@ createUnivers();
 
 /********************* Functions **********************/
 function init() {
-    scene.background = new THREE.Color('#020024');
+    scene.background = new THREE.Color('#0e103d');
     dracoLoader.setDecoderPath('draco/');
     gltfLoader.setDRACOLoader(dracoLoader);
     gsap.registerPlugin(ScrollTrigger);
@@ -205,7 +205,8 @@ function createUnivers() {
         const targetDeskLight = new THREE.Object3D(); // Target
         targetDeskLight.position.set(-0.13,-0.18,-0.21);
         scene.add(targetDeskLight);
-        const deskLight = new THREE.SpotLight('#dcdfff', 1); // Light
+        const deskLight = new THREE.SpotLight('#ffffff', 1); // Light
+        deskLight.distance = 1.5;
         deskLight.angle = Math.PI/7;
         deskLight.penumbra = 0.3;
         deskLight.castShadow = true;
@@ -220,7 +221,7 @@ function createUnivers() {
         const targetMoonLight = new THREE.Object3D(); // Target
         targetMoonLight.position.set(0.651,0.365,1.248);
         scene.add(targetMoonLight);
-        const moonLight = new THREE.DirectionalLight('#141C74', 2); // Light
+        const moonLight = new THREE.DirectionalLight('#dcdfff', 2); // Light
         moonLight.castShadow = true;
         moonLight.shadow.camera.far = 5;
         moonLight.shadow.mapSize.set(8192, 8192);
@@ -230,7 +231,7 @@ function createUnivers() {
         scene.add(moonLight);
 
         // Ambient light (add some life to the scene)
-        const ambientLight = new THREE.AmbientLight('#101980', 0.8);
+        const ambientLight = new THREE.AmbientLight('#dcdfff', 0.5);
         scene.add(ambientLight);
 
          // Point light for mailbox
@@ -244,10 +245,10 @@ function createUnivers() {
         /********************* 3D object **********************/
         // Circles
         const geometry_circle = new THREE.CircleGeometry(5, 64);
-        const material_circle1 = new THREE.MeshBasicMaterial({ color: 0x044741 });
-        const material_circle2 = new THREE.MeshBasicMaterial({ color: 0x480ca8 });
-        const material_circle3 = new THREE.MeshBasicMaterial({ color: 0xa8bfa3 });
-
+        const material_circle1 = new THREE.MeshStandardMaterial({ color: 0x5c80bc });
+        const material_circle2 = new THREE.MeshStandardMaterial({ color: 0x884da7 });
+        const material_circle3 = new THREE.MeshStandardMaterial({ color: 0x136f63 });
+       
         const circleFirst = new THREE.Mesh(geometry_circle, material_circle1);
         const circleSecond = new THREE.Mesh(geometry_circle, material_circle2);
         const circleThird = new THREE.Mesh(geometry_circle, material_circle3);
