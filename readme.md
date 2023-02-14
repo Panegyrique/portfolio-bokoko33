@@ -15,12 +15,13 @@ Manually change the react script version
 - Go to your package.json and change the react-script version to 5.0.1
 - Delete the node_modules folder
 - Delete the package.lock.json
+- Install dependencies (node modules)
+  ``` bash
+  npm install
+  ```
 
 ## Run the project
 ``` bash
-# Install dependencies (only the first time) 
-npm install
-
 # Run the local server at localhost:8080
 npm run dev
 
