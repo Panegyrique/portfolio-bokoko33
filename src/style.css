@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html, body{
     font-family: 'Roboto Mono', monospace;
     text-align: justify;
     color: var(--white);
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 :root{
@@ -115,16 +119,30 @@ a {
 }
 
 
+
 /********** Pages itself  **********/
 .page{
-    z-index: 99999;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .page-wrapper{
-    position: relative;
+  position: relative;
+}
+
+.page1 {
+  width: 100%;
+  height: 100%;
+  background-color: var(--init-color-background);
+  overflow: hidden;
+}
+
+.page2 {
+  width: 100%;
+  height: 100vh;
+  display: none;
 }
 
 
@@ -309,7 +327,7 @@ a {
 
 /********** Hero  **********/
 .hero{
-    width: 100vw;
+    width: 100%;
     height: 100vh;   
 }
 

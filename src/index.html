@@ -4,160 +4,186 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
-    <script type="module" src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
     <title>Mathias AMICHAUD</title>
 </head>
 <body>
-  <div class="experience">
-    <canvas class="webgl"></canvas>
-  </div>
 
-  <div class="preloader">
-    <div class="preloader-wrapper">
-      <div class="loading">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-      </div>
+
+    <div class="experience">
+        <canvas class="webgl"></canvas>
     </div>
-  </div>
 
-  <div class="page" asscroll-container>
-    <div class="page-wrapper" asscroll>
-      <section class="hero">
-        <div class="hero-wrapper">
 
-          <div class="intro-text">Welcome to my portfolio</div>
-          <div class="arrow-svg-wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" style="fill: white;">
-              <path d="m24 30.45 8.65-8.65-2.15-2.1-6.5 6.5-6.5-6.5-2.15 2.1ZM24 44q-4.1 0-7.75-1.575-3.65-1.575-6.375-4.3-2.725-2.725-4.3-6.375Q4 28.1 4 24q0-4.15 1.575-7.8 1.575-3.65 4.3-6.35 2.725-2.7 6.375-4.275Q19.9 4 24 4q4.15 0 7.8 1.575 3.65 1.575 6.35 4.275 2.7 2.7 4.275 6.35Q44 19.85 44 24q0 4.1-1.575 7.75-1.575 3.65-4.275 6.375t-6.35 4.3Q28.15 44 24 44Zm0-3q7.1 0 12.05-4.975Q41 31.05 41 24q0-7.1-4.95-12.05Q31.1 7 24 7q-7.05 0-12.025 4.95Q7 16.9 7 24q0 7.05 4.975 12.025Q16.95 41 24 41Zm0-17Z"/>
-            </svg>
+    <div class="preloader">
+        <div class="preloader-wrapper">
+          <div class="loading">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
           </div>
-
-          <div class="hero-main">
-            <h1 class="hero-main-title">Mathias AMICHAUD</h1>
-            <p class="hero-main-description">Engineering student at INSA</p>
-            <p class="hero-main-description second-des">Centre Val de Loire</p>
-          </div>
-
-          <div class="hero-second">
-            <p class="hero-second-subheading">AMICHAUD</p>
-            <p class="hero-second-subheading second-sub">Portfolio</p>
-          </div>
-
         </div>
-      </section>
-
-      <div class="hidden-block">
-
-        <div class="first-move section-margin"></div>
-
-        <section class="first-section section left">
-          <div class="progress-wrapper progress-bar-wrapper-left">
-            <div class="progress-bar "></div>
-          </div>
-
-          <div class="section-intro-wrapper">
-            <h1 class="section-title">
-              <span class="section-title-text">About Me</span>
-              <div class="section-title-decoration-styleOne"></div>
-              <div class="section-title-decoration-styleTwo"></div>
-              <div class="section-title-decoration-styleThree"></div>
-            </h1>
-            <span class="section-number">01</span>
-          </div>
-
-          <div class="section-detail-wrapper">
-            <h3 class="section-heading">Welcome again on my portfolio !</h3>
-            <p class="section-text">I am currently in my 4th year of engineering studies in industrial engineering at INSA Centre Val de Loire, specialized in ACAD (Acquisition, Analysis and Decision), an orientation that combines electronics, automation and computer science. My passion for embedded systems took an exciting turn during my university exchange at the Polytechnic of Warsaw in Poland, where I could study mechatronics and autonomous and electric vehicles.</p>
-            <h3 class="section-heading"></h3>
-            <p class="section-text">This portfolio will allow you to discover my projects, experiences and skills, as well as my aspirations for the future. I hope that my academic background and interests will be an asset to any project or opportunity that comes my way.</p>
-            <h3 class="section-heading"></h3>
-            <p class="section-text">I am excited to share my world of technology and innovation with you.</p>
-          </div>
-        </section>
-
-        <div class="second-move section-margin"></div>
-
-        <section class="second-section section right">
-          <div class="progress-wrapper progress-bar-wrapper-right">
-            <div class="progress-bar color-background-2"></div>
-          </div>
-
-          <div class="section-intro-wrapper color-text-2 color-border-2">
-            <h1 class="section-title color-text-2 color-border-2">
-              <span class="section-title-text color-text-2">My work</span>
-              <div class="section-title-decoration-styleOne color-border-2"></div>
-              <div class="section-title-decoration-styleTwo color-border-2"></div>
-              <div class="section-title-decoration-styleThree color-background-2 color-border-2"></div>
-            </h1>
-            <span class="section-number color-text-2">02</span>
-          </div>
-
-          <div class="section-detail-wrapper">
-            <h3 class="section-heading">Automated drug dispenser | 2018</h3>
-            <p class="section-text">Project to improve the medication process, especially for patients receiving home care. The goal is to reduce the workload of caregivers, who often have to travel to dispense medications, allowing them to focus on more urgent care. The dispenser is secure, with access granted only to caregivers who can easily refill the dispenser for several weeks and configure the dispensing schedule using an intuitive human-machine interface. I was responsible for the coding and all the electronics; I based the project on <em><u>Arduino</u></em>, which is C++ based. This project received the <em><u>gold medal of the Lépine contest and the popular choice award at the young inventors' fair in Tours</u></em>.</p>
-            <h3 class="section-heading">Head Fighter | 2019</h3>
-            <p class="section-text">2D fighting game coded in <em><u>Python</u></em> that can be played by two players on the same computer. In this game, players can choose from a range of unique fighters, each represented only by their head, hence the name. The objective of the game is to decrease the opponent's life points by jumping on them. The game features intuitive controls and vibrant graphics that create an immersive and entertaining experience for players.</p>
-            <h3 class="section-heading">Connected hive | 2019</h3>
-            <p class="section-text">A project to help beekeepers, a profession that can often be difficult. This connected hive, accessed via an app developed on <em><u>Android Studio</u></em>, allows beekeepers to monitor the weight of honey in the hive, humidity levels, bee flow, and even detect possible theft or swarming. Access to the inside of the hive is only possible by unlocking via the app, which uses Bluetooth for unlocking. The electronic components are based on <em><u>Arduino</u></em> and the application and Arduino interact through a <em><u>MySql</u></em> database, the requests being sent in <em><u>PHP</u></em>.</p>
-            <h3 class="section-heading">Website for the Abeille Des Aydes Basket of Blois | 2020</h3>
-            <p class="section-text">The website was developed for the basketball club of Blois in order to improve the follow-up of the players, especially their youngsters of the espoir team. The Blois basketball club is a professional club playing in the Betclic Elite league (formerly Pro A). Players can record their daily experiences, such as the level of difficulty of training, their level of fatigue beforehand, the quality of their sleep ... Coaches have access to this data and can have a personalized follow-up for each player, allowing them to better target their training. They also have access to the technical characteristics of each player. Parents of young players (but also of older ones ;) ) can also consult some results. To enter the data, players or coaches simply need to log into the website, which is based on <em><u>HTML</u></em>, <em><u>CSS</u></em>, <em><u>PHP</u></em> and <em><u>MySQL</u></em>.</p>
-            <h3 class="section-heading">Modeling of a compressor| 2021</h3>
-            <p class="section-text">Modeled a compressor using <em><u>SolidWorks</u></em> and created an animation to clearly demonstrate its operation. The dimensions were linked, allowing for quick and easy changes to the design. The goal was to create a detailed and accurate representation of the compressor, as well as a clear visual representation of its operation. </p>
-            <h3 class="section-heading">Modeling and simulation of a gantry crane | 2022</h3>
-            <p class="section-text">The objective of the project was to model and simulate a gantry crane to size the hoist motor based on a list of specifications using <em><u>SolidWorks</u></em> and <em><u>Meca 3D</u></em>. It was necessary to determine the required specifications for the motor that would allow the crane to function optimally and meet the needs described in the specification list.</p>
-            <h3 class="section-heading">This portfolio | 2023</h3>
-            <p class="section-text">The project was to develop a visually appealing personal portfolio website for the purpose of exploring and learning <em><u>JavaScript</u></em>, specifically the <em><u>Three.js library</u></em>. A 3D object design was created using <em><u>Blender</u></em> and then incorporated into the website using the Three.js framework. The goal was to gain hands-on experience with JavaScript and the Three.js library, and to present both technical skills and creativity in a unique and interactive way through the portfolio website. <em><u>HTML</u></em>, <em><u>CSS</u></em> were also utilized to enhance the website's design.</p>
-            <p class="link-project">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="100px" height="100px" fill-rule="nonzero"><g transform="translate(25.6,25.6) scale(0.8,0.8)"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(2.56,2.56)"><path d="M71,82h-42c-6.075,0 -11,-4.925 -11,-11v-42c0,-6.075 4.925,-11 11,-11h42c6.075,0 11,4.925 11,11v42c0,6.075 -4.925,11 -11,11z" fill="#6693c1"></path><path d="M69.933,49.039c0,-3.321 -1.305,-6.334 -3.419,-8.573c0.396,-2.203 0.351,-5.301 -0.538,-7.966c-4.475,0 -8.114,3.447 -8.702,4h-12.804c-0.589,-0.552 -4.019,-4 -8.494,-4c-0.8,2.401 -1.087,5.233 -0.846,7.295c-2.518,2.286 -4.108,5.575 -4.108,9.245c0,6.908 5.599,12.459 12.507,12.459h2.447c-2.003,0.917 -3.635,2.756 -4,5c-2,0 -4.864,-0.182 -6.181,-2.158c-2.46,-3.69 -3.59,-3.69 -4.819,-3.69c-1.23,0 -1.33,1.23 -0.1,2.46c1.23,1.23 1.23,1.23 2.46,3.69c1.012,2.027 3.64,3.699 8.64,3.699v6h17v-8.845c0,-2.718 -1.681,-5.092 -4,-6.155h2.449c6.909,0 12.508,-5.553 12.508,-12.461z" fill="#eeecd9"></path><path d="M58.976,77c-0.276,0 -0.5,-0.224 -0.5,-0.5v-8.845c0,-2.431 -1.456,-4.668 -3.708,-5.701c-0.214,-0.098 -0.331,-0.332 -0.28,-0.561c0.05,-0.229 0.253,-0.393 0.488,-0.393h2.449c6.621,0 12.008,-5.366 12.008,-11.961c0,-3.064 -1.166,-5.987 -3.282,-8.229c-0.109,-0.115 -0.157,-0.275 -0.129,-0.432c0.333,-1.854 0.39,-4.725 -0.409,-7.37c-3.682,0.162 -6.795,2.725 -7.987,3.848c-0.093,0.087 -0.225,0.144 -0.352,0.144h-12.805c-0.127,0 -0.249,-0.048 -0.342,-0.135l-0.092,-0.087c-3.078,-2.927 -5.829,-3.686 -7.697,-3.77c-0.662,2.162 -0.941,4.762 -0.712,6.729c0.019,0.16 -0.042,0.319 -0.161,0.428c-2.506,2.275 -3.943,5.51 -3.943,8.875c0,6.595 5.387,11.96 12.007,11.96h2.447c0.235,0 0.438,0.164 0.488,0.394c0.051,0.229 -0.066,0.463 -0.28,0.561c-1.974,0.904 -3.397,2.676 -3.715,4.625c-0.039,0.242 -0.248,0.42 -0.493,0.42c-2.333,0 -5.191,-0.271 -6.598,-2.38c-2.311,-3.467 -3.28,-3.467 -4.403,-3.467c-0.14,0 -0.385,0.023 -0.448,0.178c-0.086,0.206 0.031,0.756 0.702,1.428c1.287,1.287 1.311,1.335 2.554,3.82c1.102,2.206 4.012,3.421 8.193,3.421c0.276,0 0.5,0.224 0.5,0.5v6c0,0.276 -0.224,0.5 -0.5,0.5c-0.276,0 -0.5,-0.224 -0.5,-0.5v-5.505c-5.797,-0.131 -7.866,-2.525 -8.588,-3.969c-1.194,-2.387 -1.194,-2.387 -2.366,-3.56c-0.869,-0.869 -1.213,-1.81 -0.919,-2.518c0.209,-0.505 0.709,-0.795 1.372,-0.795c1.588,0 2.81,0.272 5.235,3.912c1.069,1.604 3.359,1.9 5.356,1.932c0.362,-1.545 1.309,-2.965 2.63,-3.997h-0.668c-7.172,0 -13.007,-5.813 -13.007,-12.959c0,-3.562 1.485,-6.988 4.084,-9.442c-0.209,-2.203 0.128,-4.956 0.896,-7.257c0.069,-0.204 0.26,-0.342 0.475,-0.342c2.036,0 5.192,0.696 8.692,4h12.409c1.427,-1.311 4.847,-4 8.898,-4c0.215,0 0.406,0.138 0.475,0.342c0.935,2.802 0.928,5.901 0.598,7.965c2.185,2.404 3.385,5.495 3.385,8.732c0,7.147 -5.835,12.961 -13.008,12.961h-0.693c1.707,1.368 2.744,3.442 2.744,5.655v8.845c0,0.276 -0.224,0.5 -0.5,0.5z" fill="#1f212b"></path><path d="M65.5,77h-31c-6.341,0 -11.5,-5.159 -11.5,-11.5v-31c0,-6.341 5.159,-11.5 11.5,-11.5h31c0.276,0 0.5,0.224 0.5,0.5c0,0.276 -0.224,0.5 -0.5,0.5h-31c-5.79,0 -10.5,4.71 -10.5,10.5v31c0,5.79 4.71,10.5 10.5,10.5h31c5.79,0 10.5,-4.71 10.5,-10.5v-15c0,-0.276 0.224,-0.5 0.5,-0.5c0.276,0 0.5,0.224 0.5,0.5v15c0,6.341 -5.159,11.5 -11.5,11.5z" fill="#1f212b"></path><path d="M76.5,48.5c-0.276,0 -0.5,-0.224 -0.5,-0.5v-6.5c0,-0.276 0.224,-0.5 0.5,-0.5c0.276,0 0.5,0.224 0.5,0.5v6.5c0,0.276 -0.224,0.5 -0.5,0.5z" fill="#1f212b"></path><path d="M76.5,38.5c-0.276,0 -0.5,-0.224 -0.5,-0.5v-3.5c0,-0.276 0.224,-0.5 0.5,-0.5c0.276,0 0.5,0.224 0.5,0.5v3.5c0,0.276 -0.224,0.5 -0.5,0.5z" fill="#1f212b"></path><path d="M71,83h-42c-6.617,0 -12,-5.383 -12,-12v-42c0,-6.617 5.383,-12 12,-12h42c6.617,0 12,5.383 12,12v42c0,6.617 -5.383,12 -12,12zM29,19c-5.514,0 -10,4.486 -10,10v42c0,5.514 4.486,10 10,10h42c5.514,0 10,-4.486 10,-10v-42c0,-5.514 -4.486,-10 -10,-10z" fill="#1f212b"></path></g></g></g></svg>
-              <a href="https://github.com/Panegyrique/portfolio-bokoko33.git" target="_blank">
-                <em>
-                  <u>GitHub project</u>
-                </em>
-              </a>
-            </p>
-            <h3 class="section-heading">Computer cursor control by eye tracking via webcam | 2023</h3>
-            <p class="section-text">The project consists in developing an eye-tracking cursor control system using a webcam. The project is still under development and implemented using <em><u>Python</u></em> with the help of the <em><u>OpenCV</u></em> library. The goal is to create a software solution that allows the user to control the movement of the cursor on a computer screen solely through eye movements.</p>
-          </div>
-        </section>
-
-        <div class="third-move section-margin"></div>
-
-        <section class="third-section section left">
-          <div class="progress-wrapper progress-bar-wrapper-left">
-            <div class="progress-bar color-background-3"></div>
-          </div>
-
-          <div class="section-intro-wrapper color-text-3 color-border-3">
-            <h1 class="section-title color-text-3 color-border-3">
-              <span class="section-title-text color-text-3">Contact Me</span>
-              <div class="section-title-decoration-styleOne color-border-3"></div>
-              <div class="section-title-decoration-styleTwo color-border-3"></div>
-              <div class="section-title-decoration-styleThree color-background-3 color-border-3"></div>
-            </h1>
-            <span class="section-number color-text-3">03</span>
-          </div>
-
-          <div class="section-detail-wrapper">
-            <h3 class="section-heading">Thank you</h3>
-            <p class="section-text">I hope this message finds you well. I just wanted to take a moment to express my gratitude for taking the time to review my portfolio. Your interest and consideration are truly appreciated.</p>
-            <h3 class="section-heading"></h3>
-            <p class="section-text">If you are interested in connecting further, please feel free to reach out to me directly on LinkedIn. I would be more than happy to discuss my qualifications and experience in greater detail.<br><br></p>
-            <p class="link-project">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="100px" height="100px" fill-rule="nonzero"><g transform="translate(25.6,25.6) scale(0.8,0.8)"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(2.56,2.56)"><path d="M69.307,81.654h-39c-6.6,0 -12,-5.4 -12,-12v-39c0,-6.6 5.4,-12 12,-12h39c6.6,0 12,5.4 12,12v39c0,6.6 -5.4,12 -12,12z" fill="#78a1d1"></path><path d="M69.307,82.654h-39c-7.168,0 -13,-5.832 -13,-13v-39c0,-7.168 5.832,-13 13,-13h39c7.168,0 13,5.832 13,13v39c0,7.168 -5.831,13 -13,13zM30.307,19.654c-6.065,0 -11,4.935 -11,11v39c0,6.065 4.935,11 11,11h39c6.065,0 11,-4.935 11,-11v-39c0,-6.065 -4.935,-11 -11,-11z" fill="#1f212b"></path><path d="M76.807,48.154v18.663c0,5.685 -4.652,10.337 -10.337,10.337h-33.326c-5.685,0 -10.337,-4.652 -10.337,-10.337v-33.326c0,-5.685 4.652,-10.337 10.337,-10.337h33.663" fill="#78a1d1"></path><path d="M66.47,77.654h-33.326c-5.976,0 -10.837,-4.861 -10.837,-10.837v-33.327c0,-5.976 4.861,-10.837 10.837,-10.837h33.663c0.276,0 0.5,0.224 0.5,0.5c0,0.276 -0.224,0.5 -0.5,0.5h-33.663c-5.424,0 -9.837,4.413 -9.837,9.837v33.326c0,5.424 4.413,9.837 9.837,9.837h33.326c5.424,0 9.837,-4.413 9.837,-9.837v-18.662c0,-0.276 0.224,-0.5 0.5,-0.5c0.276,0 0.5,0.224 0.5,0.5v18.663c0,5.975 -4.861,10.837 -10.837,10.837z" fill="#1f212b"></path><path d="M76.807,46.654c-0.276,0 -0.5,-0.224 -0.5,-0.5v-4c0,-0.276 0.224,-0.5 0.5,-0.5c0.276,0 0.5,0.224 0.5,0.5v4c0,0.276 -0.224,0.5 -0.5,0.5zM76.807,40.654c-0.276,0 -0.5,-0.224 -0.5,-0.5v-2c0,-0.276 0.224,-0.5 0.5,-0.5c0.276,0 0.5,0.224 0.5,0.5v2c0,0.276 -0.224,0.5 -0.5,0.5z" fill="#1f212b"></path><path d="M64.807,53.974v10.179h-6l-0.083,-10.092c0,-2.556 -1.163,-4.372 -3.456,-4.372c-1.751,0 -2.788,1.172 -3.248,2.309c-0.165,0.404 -0.213,0.973 -0.213,1.542v10.613h-6.077c0,0 0.082,-17.219 0,-19h6.077v2.933c-0.014,0.022 -0.027,0.045 -0.041,0.067h0.041v-0.067c0.845,-1.41 2.387,-3.053 5.752,-3.053c4.168,-0.007 7.248,2.591 7.248,8.941zM38.825,36.195c-1.877,0 -3.101,1.287 -3.101,2.979c0,1.654 1.188,2.979 3.03,2.979h0.036c1.913,0 3.101,-1.325 3.101,-2.979c-0.042,-1.691 -1.195,-2.979 -3.066,-2.979zM35.807,64.154h6v-19h-6z" fill="#fdfcee"></path><path d="M64.807,64.654h-6c-0.274,0 -0.498,-0.221 -0.5,-0.496l-0.083,-10.092c0,-1.168 -0.288,-3.876 -2.956,-3.876c-1.784,0 -2.541,1.396 -2.784,1.997c-0.117,0.287 -0.176,0.743 -0.176,1.354v10.613c0,0.276 -0.224,0.5 -0.5,0.5h-6.078c-0.133,0 -0.261,-0.053 -0.354,-0.147c-0.093,-0.094 -0.146,-0.222 -0.146,-0.355c0.001,-0.172 0.081,-17.226 0,-18.975c-0.006,-0.136 0.043,-0.27 0.138,-0.368c0.095,-0.099 0.225,-0.155 0.362,-0.155h6.077c0.276,0 0.5,0.224 0.5,0.5v1.43c1.288,-1.381 3.071,-2.038 5.271,-2.05c2.188,0 3.968,0.668 5.288,1.986c1.62,1.617 2.441,4.125 2.441,7.456v10.179c0,0.275 -0.224,0.499 -0.5,0.499zM59.303,63.654h5.004v-9.679c0,-3.055 -0.723,-5.325 -2.148,-6.748c-1.125,-1.124 -2.667,-1.693 -4.582,-1.693c-0.006,0 -0.011,0 -0.017,0c-3.215,0 -4.561,1.557 -5.292,2.756c-0.075,0.199 -0.253,0.364 -0.461,0.364c-0.181,0 -0.368,-0.098 -0.457,-0.255c-0.077,-0.137 -0.1,-0.3 -0.043,-0.441v-2.304h-5.064c0.053,3.027 0.001,15.303 -0.011,18h5.075v-10.114c0,-0.753 0.082,-1.319 0.25,-1.731c0.663,-1.64 2.051,-2.62 3.71,-2.62c2.44,0 3.956,1.867 3.956,4.873zM41.807,64.654h-6c-0.276,0 -0.5,-0.224 -0.5,-0.5v-19c0,-0.276 0.224,-0.5 0.5,-0.5h6c0.276,0 0.5,0.224 0.5,0.5v19c0,0.276 -0.224,0.5 -0.5,0.5zM36.307,63.654h5v-18h-5zM38.789,42.654c-2.081,0 -3.565,-1.463 -3.565,-3.479c0,-2.016 1.515,-3.479 3.602,-3.479c2.048,0 3.515,1.426 3.565,3.467c0,2.028 -1.515,3.491 -3.602,3.491zM38.825,36.695c-1.532,0 -2.602,1.02 -2.602,2.479c0,1.459 1.041,2.479 2.53,2.479c1.567,0 2.637,-1.02 2.637,-2.479c-0.037,-1.501 -1.044,-2.479 -2.565,-2.479z" fill="#1f212b"></path></g></g></g></svg>
-              <a href="https://www.linkedin.com/in/mathias-amichaud-internship-april/" target="_blank">
-                <em>
-                  <u>My LinkedIn</u>
-                </em>
-              </a>
-            </p>
-          </div>
-        </section>
-
-      </div>
     </div>
-  </div>
-  
+
+
+    <div class="page1" id="page1">
+        <div class="page-wrapper">
+            <section class="hero">
+              <div class="hero-wrapper">
+
+                <div class="intro-text">Welcome to my portfolio</div>
+                
+                <div class="arrow-svg-wrapper">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" style="fill: white;">
+                    <path d="m24 30.45 8.65-8.65-2.15-2.1-6.5 6.5-6.5-6.5-2.15 2.1ZM24 44q-4.1 0-7.75-1.575-3.65-1.575-6.375-4.3-2.725-2.725-4.3-6.375Q4 28.1 4 24q0-4.15 1.575-7.8 1.575-3.65 4.3-6.35 2.725-2.7 6.375-4.275Q19.9 4 24 4q4.15 0 7.8 1.575 3.65 1.575 6.35 4.275 2.7 2.7 4.275 6.35Q44 19.85 44 24q0 4.1-1.575 7.75-1.575 3.65-4.275 6.375t-6.35 4.3Q28.15 44 24 44Zm0-3q7.1 0 12.05-4.975Q41 31.05 41 24q0-7.1-4.95-12.05Q31.1 7 24 7q-7.05 0-12.025 4.95Q7 16.9 7 24q0 7.05 4.975 12.025Q16.95 41 24 41Zm0-17Z"/>
+                  </svg>
+                </div>
+
+              </div>
+            </section>
+        </div>
+    </div>
+
+
+    <div class="page2" id="page2">
+        <div class="page-wrapper">
+            <section class="hero">
+                <div class="hero-wrapper">
+      
+                    <div class="arrow-svg-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" style="fill: white;">
+                        <path d="m24 30.45 8.65-8.65-2.15-2.1-6.5 6.5-6.5-6.5-2.15 2.1ZM24 44q-4.1 0-7.75-1.575-3.65-1.575-6.375-4.3-2.725-2.725-4.3-6.375Q4 28.1 4 24q0-4.15 1.575-7.8 1.575-3.65 4.3-6.35 2.725-2.7 6.375-4.275Q19.9 4 24 4q4.15 0 7.8 1.575 3.65 1.575 6.35 4.275 2.7 2.7 4.275 6.35Q44 19.85 44 24q0 4.1-1.575 7.75-1.575 3.65-4.275 6.375t-6.35 4.3Q28.15 44 24 44Zm0-3q7.1 0 12.05-4.975Q41 31.05 41 24q0-7.1-4.95-12.05Q31.1 7 24 7q-7.05 0-12.025 4.95Q7 16.9 7 24q0 7.05 4.975 12.025Q16.95 41 24 41Zm0-17Z"/>
+                    </svg>
+                    </div>
+        
+                    <div class="hero-main">
+                    <h1 class="hero-main-title">Mathias AMICHAUD</h1>
+                    <p class="hero-main-description">Engineering student at INSA</p>
+                    <p class="hero-main-description second-des">Centre Val de Loire</p>
+                    </div>
+        
+                    <div class="hero-second">
+                    <p class="hero-second-subheading">AMICHAUD</p>
+                    <p class="hero-second-subheading second-sub">Portfolio</p>
+                    </div>
+      
+                </div>
+            </section>
+      
+            <div class="portfolio-information">
+      
+                <div class="first-move section-margin"></div>
+      
+                <section class="first-section section left">
+                    <div class="progress-wrapper progress-bar-wrapper-left">
+                        <div class="progress-bar "></div>
+                    </div>
+        
+                    <div class="section-intro-wrapper">
+                        <h1 class="section-title">
+                            <span class="section-title-text">About Me</span>
+                            <div class="section-title-decoration-styleOne"></div>
+                            <div class="section-title-decoration-styleTwo"></div>
+                            <div class="section-title-decoration-styleThree"></div>
+                        </h1>
+                        <span class="section-number">01</span>
+                    </div>
+        
+                    <div class="section-detail-wrapper">
+                        <h3 class="section-heading">Welcome again on my portfolio !</h3>
+                        <p class="section-text">I am currently in my 4th year of engineering studies in industrial engineering at INSA Centre Val de Loire, specialized in ACAD (Acquisition, Analysis and Decision), an orientation that combines electronics, automation and computer science. My passion for embedded systems took an exciting turn during my university exchange at the Polytechnic of Warsaw in Poland, where I could study mechatronics and autonomous and electric vehicles.</p>
+                        <h3 class="section-heading"></h3>
+                        <p class="section-text">This portfolio will allow you to discover my projects, experiences and skills, as well as my aspirations for the future. I hope that my academic background and interests will be an asset to any project or opportunity that comes my way.</p>
+                        <h3 class="section-heading"></h3>
+                        <p class="section-text">I am excited to share my world of technology and innovation with you.</p>
+                    </div>
+                </section>
+      
+                <div class="second-move section-margin"></div>
+      
+                <section class="second-section section right">
+                    <div class="progress-wrapper progress-bar-wrapper-right">
+                        <div class="progress-bar color-background-2"></div>
+                    </div>
+        
+                    <div class="section-intro-wrapper color-text-2 color-border-2">
+                        <h1 class="section-title color-text-2 color-border-2">
+                            <span class="section-title-text color-text-2">My work</span>
+                            <div class="section-title-decoration-styleOne color-border-2"></div>
+                            <div class="section-title-decoration-styleTwo color-border-2"></div>
+                            <div class="section-title-decoration-styleThree color-background-2 color-border-2"></div>
+                        </h1>
+                        <span class="section-number color-text-2">02</span>
+                    </div>
+        
+                    <div class="section-detail-wrapper">
+                        <h3 class="section-heading">Automated drug dispenser | 2018</h3>
+                        <p class="section-text">Project to improve the medication process, especially for patients receiving home care. The goal is to reduce the workload of caregivers, who often have to travel to dispense medications, allowing them to focus on more urgent care. The dispenser is secure, with access granted only to caregivers who can easily refill the dispenser for several weeks and configure the dispensing schedule using an intuitive human-machine interface. I was responsible for the coding and all the electronics; I based the project on <em><u>Arduino</u></em>, which is C++ based. This project received the <em><u>gold medal of the Lépine contest and the popular choice award at the young inventors' fair in Tours</u></em>.</p>
+                        <h3 class="section-heading">Head Fighter | 2019</h3>
+                        <p class="section-text">2D fighting game coded in <em><u>Python</u></em> that can be played by two players on the same computer. In this game, players can choose from a range of unique fighters, each represented only by their head, hence the name. The objective of the game is to decrease the opponent's life points by jumping on them. The game features intuitive controls and vibrant graphics that create an immersive and entertaining experience for players.</p>
+                        <h3 class="section-heading">Connected hive | 2019</h3>
+                        <p class="section-text">A project to help beekeepers, a profession that can often be difficult. This connected hive, accessed via an app developed on <em><u>Android Studio</u></em>, allows beekeepers to monitor the weight of honey in the hive, humidity levels, bee flow, and even detect possible theft or swarming. Access to the inside of the hive is only possible by unlocking via the app, which uses Bluetooth for unlocking. The electronic components are based on <em><u>Arduino</u></em> and the application and Arduino interact through a <em><u>MySql</u></em> database, the requests being sent in <em><u>PHP</u></em>.</p>
+                        <h3 class="section-heading">Website for the Abeille Des Aydes Basket of Blois | 2020</h3>
+                        <p class="section-text">The website was developed for the basketball club of Blois in order to improve the follow-up of the players, especially their youngsters of the espoir team. The Blois basketball club is a professional club playing in the Betclic Elite league (formerly Pro A). Players can record their daily experiences, such as the level of difficulty of training, their level of fatigue beforehand, the quality of their sleep ... Coaches have access to this data and can have a personalized follow-up for each player, allowing them to better target their training. They also have access to the technical characteristics of each player. Parents of young players (but also of older ones ;) ) can also consult some results. To enter the data, players or coaches simply need to log into the website, which is based on <em><u>HTML</u></em>, <em><u>CSS</u></em>, <em><u>PHP</u></em> and <em><u>MySQL</u></em>.</p>
+                        <h3 class="section-heading">Modeling of a compressor| 2021</h3>
+                        <p class="section-text">Modeled a compressor using <em><u>SolidWorks</u></em> and created an animation to clearly demonstrate its operation. The dimensions were linked, allowing for quick and easy changes to the design. The goal was to create a detailed and accurate representation of the compressor, as well as a clear visual representation of its operation. </p>
+                        <h3 class="section-heading">Modeling and simulation of a gantry crane | 2022</h3>
+                        <p class="section-text">The objective of the project was to model and simulate a gantry crane to size the hoist motor based on a list of specifications using <em><u>SolidWorks</u></em> and <em><u>Meca 3D</u></em>. It was necessary to determine the required specifications for the motor that would allow the crane to function optimally and meet the needs described in the specification list.</p>
+                        <h3 class="section-heading">This portfolio | 2023</h3>
+                        <p class="section-text">The project was to develop a visually appealing personal portfolio website for the purpose of exploring and learning <em><u>JavaScript</u></em>, specifically the <em><u>Three.js library</u></em>. A 3D object design was created using <em><u>Blender</u></em> and then incorporated into the website using the Three.js framework. The goal was to gain hands-on experience with JavaScript and the Three.js library, and to present both technical skills and creativity in a unique and interactive way through the portfolio website. <em><u>HTML</u></em>, <em><u>CSS</u></em> were also utilized to enhance the website's design.</p>
+                        <p class="link-project">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="100px" height="100px" fill-rule="nonzero"><g transform="translate(25.6,25.6) scale(0.8,0.8)"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(2.56,2.56)"><path d="M71,82h-42c-6.075,0 -11,-4.925 -11,-11v-42c0,-6.075 4.925,-11 11,-11h42c6.075,0 11,4.925 11,11v42c0,6.075 -4.925,11 -11,11z" fill="#6693c1"></path><path d="M69.933,49.039c0,-3.321 -1.305,-6.334 -3.419,-8.573c0.396,-2.203 0.351,-5.301 -0.538,-7.966c-4.475,0 -8.114,3.447 -8.702,4h-12.804c-0.589,-0.552 -4.019,-4 -8.494,-4c-0.8,2.401 -1.087,5.233 -0.846,7.295c-2.518,2.286 -4.108,5.575 -4.108,9.245c0,6.908 5.599,12.459 12.507,12.459h2.447c-2.003,0.917 -3.635,2.756 -4,5c-2,0 -4.864,-0.182 -6.181,-2.158c-2.46,-3.69 -3.59,-3.69 -4.819,-3.69c-1.23,0 -1.33,1.23 -0.1,2.46c1.23,1.23 1.23,1.23 2.46,3.69c1.012,2.027 3.64,3.699 8.64,3.699v6h17v-8.845c0,-2.718 -1.681,-5.092 -4,-6.155h2.449c6.909,0 12.508,-5.553 12.508,-12.461z" fill="#eeecd9"></path><path d="M58.976,77c-0.276,0 -0.5,-0.224 -0.5,-0.5v-8.845c0,-2.431 -1.456,-4.668 -3.708,-5.701c-0.214,-0.098 -0.331,-0.332 -0.28,-0.561c0.05,-0.229 0.253,-0.393 0.488,-0.393h2.449c6.621,0 12.008,-5.366 12.008,-11.961c0,-3.064 -1.166,-5.987 -3.282,-8.229c-0.109,-0.115 -0.157,-0.275 -0.129,-0.432c0.333,-1.854 0.39,-4.725 -0.409,-7.37c-3.682,0.162 -6.795,2.725 -7.987,3.848c-0.093,0.087 -0.225,0.144 -0.352,0.144h-12.805c-0.127,0 -0.249,-0.048 -0.342,-0.135l-0.092,-0.087c-3.078,-2.927 -5.829,-3.686 -7.697,-3.77c-0.662,2.162 -0.941,4.762 -0.712,6.729c0.019,0.16 -0.042,0.319 -0.161,0.428c-2.506,2.275 -3.943,5.51 -3.943,8.875c0,6.595 5.387,11.96 12.007,11.96h2.447c0.235,0 0.438,0.164 0.488,0.394c0.051,0.229 -0.066,0.463 -0.28,0.561c-1.974,0.904 -3.397,2.676 -3.715,4.625c-0.039,0.242 -0.248,0.42 -0.493,0.42c-2.333,0 -5.191,-0.271 -6.598,-2.38c-2.311,-3.467 -3.28,-3.467 -4.403,-3.467c-0.14,0 -0.385,0.023 -0.448,0.178c-0.086,0.206 0.031,0.756 0.702,1.428c1.287,1.287 1.311,1.335 2.554,3.82c1.102,2.206 4.012,3.421 8.193,3.421c0.276,0 0.5,0.224 0.5,0.5v6c0,0.276 -0.224,0.5 -0.5,0.5c-0.276,0 -0.5,-0.224 -0.5,-0.5v-5.505c-5.797,-0.131 -7.866,-2.525 -8.588,-3.969c-1.194,-2.387 -1.194,-2.387 -2.366,-3.56c-0.869,-0.869 -1.213,-1.81 -0.919,-2.518c0.209,-0.505 0.709,-0.795 1.372,-0.795c1.588,0 2.81,0.272 5.235,3.912c1.069,1.604 3.359,1.9 5.356,1.932c0.362,-1.545 1.309,-2.965 2.63,-3.997h-0.668c-7.172,0 -13.007,-5.813 -13.007,-12.959c0,-3.562 1.485,-6.988 4.084,-9.442c-0.209,-2.203 0.128,-4.956 0.896,-7.257c0.069,-0.204 0.26,-0.342 0.475,-0.342c2.036,0 5.192,0.696 8.692,4h12.409c1.427,-1.311 4.847,-4 8.898,-4c0.215,0 0.406,0.138 0.475,0.342c0.935,2.802 0.928,5.901 0.598,7.965c2.185,2.404 3.385,5.495 3.385,8.732c0,7.147 -5.835,12.961 -13.008,12.961h-0.693c1.707,1.368 2.744,3.442 2.744,5.655v8.845c0,0.276 -0.224,0.5 -0.5,0.5z" fill="#1f212b"></path><path d="M65.5,77h-31c-6.341,0 -11.5,-5.159 -11.5,-11.5v-31c0,-6.341 5.159,-11.5 11.5,-11.5h31c0.276,0 0.5,0.224 0.5,0.5c0,0.276 -0.224,0.5 -0.5,0.5h-31c-5.79,0 -10.5,4.71 -10.5,10.5v31c0,5.79 4.71,10.5 10.5,10.5h31c5.79,0 10.5,-4.71 10.5,-10.5v-15c0,-0.276 0.224,-0.5 0.5,-0.5c0.276,0 0.5,0.224 0.5,0.5v15c0,6.341 -5.159,11.5 -11.5,11.5z" fill="#1f212b"></path><path d="M76.5,48.5c-0.276,0 -0.5,-0.224 -0.5,-0.5v-6.5c0,-0.276 0.224,-0.5 0.5,-0.5c0.276,0 0.5,0.224 0.5,0.5v6.5c0,0.276 -0.224,0.5 -0.5,0.5z" fill="#1f212b"></path><path d="M76.5,38.5c-0.276,0 -0.5,-0.224 -0.5,-0.5v-3.5c0,-0.276 0.224,-0.5 0.5,-0.5c0.276,0 0.5,0.224 0.5,0.5v3.5c0,0.276 -0.224,0.5 -0.5,0.5z" fill="#1f212b"></path><path d="M71,83h-42c-6.617,0 -12,-5.383 -12,-12v-42c0,-6.617 5.383,-12 12,-12h42c6.617,0 12,5.383 12,12v42c0,6.617 -5.383,12 -12,12zM29,19c-5.514,0 -10,4.486 -10,10v42c0,5.514 4.486,10 10,10h42c5.514,0 10,-4.486 10,-10v-42c0,-5.514 -4.486,-10 -10,-10z" fill="#1f212b"></path></g></g></g></svg>
+                            <a href="https://github.com/Panegyrique/portfolio-bokoko33.git" target="_blank">
+                            <em>
+                                <u>GitHub project</u>
+                            </em>
+                            </a>
+                        </p>
+                        <h3 class="section-heading">Computer cursor control by eye tracking via webcam | 2023</h3>
+                        <p class="section-text">The project consists in developing an eye-tracking cursor control system using a webcam. The project is still under development and implemented using <em><u>Python</u></em> with the help of the <em><u>OpenCV</u></em> library. The goal is to create a software solution that allows the user to control the movement of the cursor on a computer screen solely through eye movements.</p>
+                    </div>
+                </section>
+      
+                <div class="third-move section-margin"></div>
+      
+                <section class="third-section section left">
+                    <div class="progress-wrapper progress-bar-wrapper-left">
+                        <div class="progress-bar color-background-3"></div>
+                    </div>
+        
+                    <div class="section-intro-wrapper color-text-3 color-border-3">
+                        <h1 class="section-title color-text-3 color-border-3">
+                            <span class="section-title-text color-text-3">Contact Me</span>
+                            <div class="section-title-decoration-styleOne color-border-3"></div>
+                            <div class="section-title-decoration-styleTwo color-border-3"></div>
+                            <div class="section-title-decoration-styleThree color-background-3 color-border-3"></div>
+                        </h1>
+                        <span class="section-number color-text-3">03</span>
+                    </div>
+        
+                    <div class="section-detail-wrapper">
+                        <h3 class="section-heading">Thank you</h3>
+                        <p class="section-text">I hope this message finds you well. I just wanted to take a moment to express my gratitude for taking the time to review my portfolio. Your interest and consideration are truly appreciated.</p>
+                        <h3 class="section-heading"></h3>
+                        <p class="section-text">If you are interested in connecting further, please feel free to reach out to me directly on LinkedIn. I would be more than happy to discuss my qualifications and experience in greater detail.<br><br></p>
+                        <p class="link-project">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="100px" height="100px" fill-rule="nonzero"><g transform="translate(25.6,25.6) scale(0.8,0.8)"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(2.56,2.56)"><path d="M69.307,81.654h-39c-6.6,0 -12,-5.4 -12,-12v-39c0,-6.6 5.4,-12 12,-12h39c6.6,0 12,5.4 12,12v39c0,6.6 -5.4,12 -12,12z" fill="#78a1d1"></path><path d="M69.307,82.654h-39c-7.168,0 -13,-5.832 -13,-13v-39c0,-7.168 5.832,-13 13,-13h39c7.168,0 13,5.832 13,13v39c0,7.168 -5.831,13 -13,13zM30.307,19.654c-6.065,0 -11,4.935 -11,11v39c0,6.065 4.935,11 11,11h39c6.065,0 11,-4.935 11,-11v-39c0,-6.065 -4.935,-11 -11,-11z" fill="#1f212b"></path><path d="M76.807,48.154v18.663c0,5.685 -4.652,10.337 -10.337,10.337h-33.326c-5.685,0 -10.337,-4.652 -10.337,-10.337v-33.326c0,-5.685 4.652,-10.337 10.337,-10.337h33.663" fill="#78a1d1"></path><path d="M66.47,77.654h-33.326c-5.976,0 -10.837,-4.861 -10.837,-10.837v-33.327c0,-5.976 4.861,-10.837 10.837,-10.837h33.663c0.276,0 0.5,0.224 0.5,0.5c0,0.276 -0.224,0.5 -0.5,0.5h-33.663c-5.424,0 -9.837,4.413 -9.837,9.837v33.326c0,5.424 4.413,9.837 9.837,9.837h33.326c5.424,0 9.837,-4.413 9.837,-9.837v-18.662c0,-0.276 0.224,-0.5 0.5,-0.5c0.276,0 0.5,0.224 0.5,0.5v18.663c0,5.975 -4.861,10.837 -10.837,10.837z" fill="#1f212b"></path><path d="M76.807,46.654c-0.276,0 -0.5,-0.224 -0.5,-0.5v-4c0,-0.276 0.224,-0.5 0.5,-0.5c0.276,0 0.5,0.224 0.5,0.5v4c0,0.276 -0.224,0.5 -0.5,0.5zM76.807,40.654c-0.276,0 -0.5,-0.224 -0.5,-0.5v-2c0,-0.276 0.224,-0.5 0.5,-0.5c0.276,0 0.5,0.224 0.5,0.5v2c0,0.276 -0.224,0.5 -0.5,0.5z" fill="#1f212b"></path><path d="M64.807,53.974v10.179h-6l-0.083,-10.092c0,-2.556 -1.163,-4.372 -3.456,-4.372c-1.751,0 -2.788,1.172 -3.248,2.309c-0.165,0.404 -0.213,0.973 -0.213,1.542v10.613h-6.077c0,0 0.082,-17.219 0,-19h6.077v2.933c-0.014,0.022 -0.027,0.045 -0.041,0.067h0.041v-0.067c0.845,-1.41 2.387,-3.053 5.752,-3.053c4.168,-0.007 7.248,2.591 7.248,8.941zM38.825,36.195c-1.877,0 -3.101,1.287 -3.101,2.979c0,1.654 1.188,2.979 3.03,2.979h0.036c1.913,0 3.101,-1.325 3.101,-2.979c-0.042,-1.691 -1.195,-2.979 -3.066,-2.979zM35.807,64.154h6v-19h-6z" fill="#fdfcee"></path><path d="M64.807,64.654h-6c-0.274,0 -0.498,-0.221 -0.5,-0.496l-0.083,-10.092c0,-1.168 -0.288,-3.876 -2.956,-3.876c-1.784,0 -2.541,1.396 -2.784,1.997c-0.117,0.287 -0.176,0.743 -0.176,1.354v10.613c0,0.276 -0.224,0.5 -0.5,0.5h-6.078c-0.133,0 -0.261,-0.053 -0.354,-0.147c-0.093,-0.094 -0.146,-0.222 -0.146,-0.355c0.001,-0.172 0.081,-17.226 0,-18.975c-0.006,-0.136 0.043,-0.27 0.138,-0.368c0.095,-0.099 0.225,-0.155 0.362,-0.155h6.077c0.276,0 0.5,0.224 0.5,0.5v1.43c1.288,-1.381 3.071,-2.038 5.271,-2.05c2.188,0 3.968,0.668 5.288,1.986c1.62,1.617 2.441,4.125 2.441,7.456v10.179c0,0.275 -0.224,0.499 -0.5,0.499zM59.303,63.654h5.004v-9.679c0,-3.055 -0.723,-5.325 -2.148,-6.748c-1.125,-1.124 -2.667,-1.693 -4.582,-1.693c-0.006,0 -0.011,0 -0.017,0c-3.215,0 -4.561,1.557 -5.292,2.756c-0.075,0.199 -0.253,0.364 -0.461,0.364c-0.181,0 -0.368,-0.098 -0.457,-0.255c-0.077,-0.137 -0.1,-0.3 -0.043,-0.441v-2.304h-5.064c0.053,3.027 0.001,15.303 -0.011,18h5.075v-10.114c0,-0.753 0.082,-1.319 0.25,-1.731c0.663,-1.64 2.051,-2.62 3.71,-2.62c2.44,0 3.956,1.867 3.956,4.873zM41.807,64.654h-6c-0.276,0 -0.5,-0.224 -0.5,-0.5v-19c0,-0.276 0.224,-0.5 0.5,-0.5h6c0.276,0 0.5,0.224 0.5,0.5v19c0,0.276 -0.224,0.5 -0.5,0.5zM36.307,63.654h5v-18h-5zM38.789,42.654c-2.081,0 -3.565,-1.463 -3.565,-3.479c0,-2.016 1.515,-3.479 3.602,-3.479c2.048,0 3.515,1.426 3.565,3.467c0,2.028 -1.515,3.491 -3.602,3.491zM38.825,36.695c-1.532,0 -2.602,1.02 -2.602,2.479c0,1.459 1.041,2.479 2.53,2.479c1.567,0 2.637,-1.02 2.637,-2.479c-0.037,-1.501 -1.044,-2.479 -2.565,-2.479z" fill="#1f212b"></path></g></g></g></svg>
+                            <a href="https://www.linkedin.com/in/mathias-amichaud-internship-april/" target="_blank">
+                            <em>
+                                <u>My LinkedIn</u>
+                            </em>
+                            </a>
+                        </p>
+                    </div>
+                </section>
+      
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="./script.js"></script>
+
+
 </body>
 </html>
